@@ -64,11 +64,6 @@ export default {
 h1, h2 {
   font-weight: normal;
 }
-body{
-  align-items:center;
-  justify-centent:center;
-  height:100%
-}
 .finished{
   text-decoration: underline !important;
 }
