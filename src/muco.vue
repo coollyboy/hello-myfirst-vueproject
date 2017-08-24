@@ -32,7 +32,7 @@
 	                  </div>
 	             </div> 
 	            <div class="nav_right"></div>
-	       </div><!-- <!--nav结束 -->
+	       </div><!-- nav结束 -->
 	        <div class="ad" id="picBox"> 
 		          <div class="loading"><img src="./assets/loading.gif" alt="图片加载中..."/></div>
 		           <div class="pic">
