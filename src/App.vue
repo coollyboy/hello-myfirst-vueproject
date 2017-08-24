@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <hello></hello>
-     <h2 v-html="title"></h2>
+    <hello></hello> 
+    <h2 v-html="title"></h2>
      <h1 v-text="msg"></h1>
      <input v-model="newitem" v-on:keyup.enter="additem()">
      <ul>
@@ -14,24 +14,24 @@
 </template>
 
 <script>
-import Hello from './components/Hello'
+// import Hello from './components/Hello'
 
 export default {
   name: 'app',
-  components: {
-    Hello
-  },
+  // components: {
+  //   Hello
+  // },
    data () {
     return {
       title: '<strong>todo LIST</strong>',
-      msg:"this is my first vue project is numberone",
+      msg:"This is my first vue project is numberone",
       items:[
           {label:'coding',
           isfinished: false
           },
           {label:'waking',
           isfinished: true
-          },
+          },  
       ],
       newitem:'',
     }
@@ -67,4 +67,5 @@ h1, h2 {
 .finished{
   text-decoration: underline !important;
 }
+
 </style>
